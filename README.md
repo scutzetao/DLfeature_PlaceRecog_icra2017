@@ -5,7 +5,7 @@ This repository provides scripts to extract features using models from the paper
 Steps:
 1) Please install caffe packages by following the link: http://caffe.berkeleyvision.org/install_apt.html 
 
-2) Download the "HybridNet" model from https://www.dropbox.com/home/irca2017/HybridNet and copy them to the folder "HybridNet" in this repository;
+2) Download the "HybridNet" model from https://goo.gl/kF6nQh and copy them to the folder "HybridNet" in this repository;
 
 3) You will need to update the file 'nordland.txt' using the file pathes of your images. Each line in this file specifies one image whose feature is to be extracted. 
 

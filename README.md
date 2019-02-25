@@ -1,4 +1,4 @@
-#DLfeature_PlaceRecog_icra2017
+# DLfeature_PlaceRecog_icra2017
 
 This repository provides scripts to extract features using models from the paper "Deep learning features at scale for visual place recognition" published by Zetao Chen, et al. on ICRA 2017. 
 

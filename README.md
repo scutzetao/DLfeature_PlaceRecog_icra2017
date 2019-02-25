@@ -1,8 +1,7 @@
 # DLfeature_PlaceRecognition_ICRA2017
 
-This repository provides links to datasets and scripts to extract features using models from the paper "[Deep learning features at scale for visual place recognition](https://ieeexplore.ieee.org/abstract/document/7989366)" published by Zetao Chen, et al. on ICRA 2017. 
+This repository provides the links to the large-scale condition changing datasets, as well as scripts to extract features using models from the paper "[Deep learning features at scale for visual place recognition](https://ieeexplore.ieee.org/abstract/document/7989366)" published by Zetao Chen, et al. on ICRA 2017. 
 
-![diversity of scenes](images/scene_diversity.png)
 ![scene_variations](images/scene_condition.png)
 
 ## Setup

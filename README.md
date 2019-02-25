@@ -2,15 +2,22 @@
 
 This repository provides links to datasets and scripts to extract features using models from the paper "[Deep learning features at scale for visual place recognition](https://ieeexplore.ieee.org/abstract/document/7989366)" published by Zetao Chen, et al. on ICRA 2017. 
 
-Steps:
-1) Please install caffe packages by following the link: http://caffe.berkeleyvision.org/install_apt.html 
+![diversity of scenes](images/scene_diversity.png)
+![scene_variations](images/scene_condition.png)
 
-2) Download the "HybridNet" model from https://goo.gl/kF6nQh and copy them to the folder "HybridNet" in this repository;
+## Setup
+- Ubuntu
+- Follow this guide to [install Caffe](http://caffe.berkeleyvision.org/install_apt.html) library on Ubuntu
 
-3) You will need to update the file 'nordland.txt' using the file pathes of your images. Each line in this file specifies one image whose feature is to be extracted. 
+## Steps:
+- The currently released dataset version can be downloaded [here](https://www.dropbox.com/s/aklu4tz3hurycj0/SPED_900.zip?dl=0) 
 
-4) The file 'extract_feat_usingAMOS.py' extract features from the fc7 layer. Update it if you need to extract features from other layers.
+- Download the "HybridNet" model from https://goo.gl/kF6nQh and copy them to the folder "HybridNet" in this repository;
 
-5) Run the 'extract_feat.sh'
+- You will need to update the file 'nordland.txt' using the file pathes of your images. Each line in this file specifies one image whose feature is to be extracted. 
+
+- The file 'extract_feat_usingAMOS.py' extract features from the fc7 layer. Update it if you need to extract features from other layers.
+
+- Run the 'extract_feat.sh'
 
 

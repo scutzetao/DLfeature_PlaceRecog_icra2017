@@ -11,7 +11,7 @@ This repository provides the link to our introduced large-scale condition changi
 ## Steps:
 - The currently released dataset version can be downloaded [here](https://www.dropbox.com/s/aklu4tz3hurycj0/SPED_900.zip?dl=0) 
 
-- Download the "HybridNet" model from https://goo.gl/kF6nQh and copy them to the folder "HybridNet" in this repository;
+- Download the "HybridNet" model from https://goo.gl/kF6nQh and copy them to the folder "HybridNet" in this repository, or download the "AmosNet" model from https://goo.gl/6xtjwD and copy them to the folder "AmosNet";
 
 - You will need to update the file 'nordland.txt' using the file pathes of your images. Each line in this file specifies one image whose feature is to be extracted. 
 
